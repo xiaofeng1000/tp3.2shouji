@@ -4541,3 +4541,386 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 >>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 
+[ 2017-10-20T16:44:54+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\shouji\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php Á¨¨ 44 Ë°å.
+ERR: AccËs refusÈ pour l'utilisateur: 'root'@'@localhost' (mot de passe: NON)
+
+[ 2017-10-20T16:56:33+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\shouji\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php Á¨¨ 44 Ë°å.
+ERR: ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-10-20T17:01:13+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\shouji\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php Á¨¨ 44 Ë°å.
+ERR: ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-10-20T17:06:24+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\shouji\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php Á¨¨ 44 Ë°å.
+ERR: ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2017-10-20T17:07:30+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.006001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1598 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1606 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1609 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1617 Ë°å.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:08:18+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.006000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1598 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1606 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1609 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1617 Ë°å.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:08:23+08:00 ] ::1 /shouji/index.php/Index/index/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `shouji` WHERE ( id=2 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `model_number` WHERE ( brands='‰∏âÊòü' ) LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T17:08:24+08:00 ] ::1 /shouji/index.php/Index/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `shouji` WHERE ( id=1 )  [ RunTime:0.002000s ]
+SQL: SELECT * FROM `model_number` WHERE ( brands='ËãπÊûú' ) LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-20T17:08:25+08:00 ] ::1 /shouji/index.php/Index/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `shouji` WHERE ( id=3 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `model_number` WHERE ( brands='Â∞èÁ±≥' ) LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:08:27+08:00 ] ::1 /shouji/index.php/Index/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `shouji` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `model_number` WHERE ( brands='ËãπÊûú' ) LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T17:08:53+08:00 ] ::1 /shouji/index.php/Fault/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `classification` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `model_number` WHERE ( bid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `classification`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:08:59+08:00 ] ::1 /shouji/index.php/Fault/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `model_number` WHERE ( bid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `information` (`image`,`Model_number`,`color`,`Damage_reason`,`total_cost`) VALUES ('images\\38.png','iPhone 7 Plus','ÈáëËâ≤','ÂÜÖÂ±èÊòæÁ§∫ÂºÇÂ∏∏Ôø•998,Â§ñÂ±èÁ¢é(ÊòæÁ§∫Ê≠£Â∏∏)Ôø•100,',1098) [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:08:59+08:00 ] ::1 /shouji/index.php/service/index/id/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T17:09:28+08:00 ] ::1 /shouji/index.php/Service/update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.006001s ]
+SQL: UPDATE `information` SET `user`='qq',`Contact`='15731709183',`path`='Âåó‰∫¨Â∏Ç-Âåó‰∫¨Â∏Ç-Êµ∑Ê∑ÄÂå∫qqqadadad',`Service`='‰∏äÈó®Áª¥‰øÆ' WHERE ( id=167 ) [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:09:29+08:00 ] ::1 /shouji/index.php/Order/index/id/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `information` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `information` WHERE ( id=167 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: Damage_reason1 D:\wamp\www\shouji\application\Runtime\Cache\Home\7a8c435c1ece62f9d38cba7b60498309.php Á¨¨ 34 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:09:34+08:00 ] ::1 /shouji/index.php/Succeed/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T17:09:36+08:00 ] ::1 /shouji/index.php/Orderinfo/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T17:09:38+08:00 ] ::1 /shouji/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php Á¨¨ 6 Ë°å.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.010001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1598 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1606 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1609 Ë°å.
+NOTIC: [8] Undefined variable: where D:\wamp\www\shouji\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1617 Ë°å.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 68 Ë°å.
+NOTIC: [8] Undefined variable: content D:\wamp\www\shouji\ThinkPHP\Library\Think\Controller.class.php Á¨¨ 69 Ë°å.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

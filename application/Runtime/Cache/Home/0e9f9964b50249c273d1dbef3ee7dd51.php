@@ -56,7 +56,11 @@
 				<li><a href="/shouji/index.php/Cell/index"><img src="/shouji/Public/Home/images/001.png"></a></li>
 				<li><a href="/shouji/index.php/Shell/index"><img src="/shouji/Public/Home/images/002.png"></a></li>
 				<li><a href="/shouji/index.php/Screen/index"><img src="/shouji/Public/Home/images/003.png"></a></li>
+<<<<<<< HEAD
+				<li><a href=""><img src="/shouji/Public/Home/images/004.png"></a></li>
+=======
 				<li><a href="/shouji/index.php/Ram/index"><img src="/shouji/Public/Home/images/004.png"></a></li>
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 			</ul>
 		</section>
 		<section class="m-adout">

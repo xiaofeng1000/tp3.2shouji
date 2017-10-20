@@ -7,6 +7,12 @@ class ScreenController extends Controller{
 		$Model=M('screen');
 
 		$obj=$Model->select();
+<<<<<<< HEAD
+
+		$this->assign('obj',$obj);
+		$this->display();
+	}
+=======
 		$arr=$Model->find();
 		$color=explode(",",$arr['color']);
 
@@ -52,4 +58,5 @@ class ScreenController extends Controller{
 			echo "ok";
 		}
 	}
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 }

@@ -99,11 +99,17 @@
 		</div>
 		<div class="cell-order-member">
 			<select id="screen-color">
+<<<<<<< HEAD
+				<option value="1">金色</option>
+				<option value="2">黑色</option>
+				<option value="3">白色</option>
+=======
 				<!-- <option value="1">金色</option>
 				<option value="2">黑色</option>
 				<option value="3">白色</option> -->
 				<?php
  for($i=0;$i<count($color);$i++){ echo "<option value='$i+1'>$color[$i]</option>"; } ?>
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 			</select>
 		</div>
 		<div class="cell-order-member">
@@ -185,6 +191,8 @@
 		<div class="cell-footer-r" id="cell-submit">提交订单</div>
 	</div>
 </body>
+<<<<<<< HEAD
+=======
 <script>
 $(function(){
 	var color=$('#cell-model').find('option:selected').html();
@@ -298,4 +306,5 @@ $('#cell-submit').click(function(){
 	}
 });
 </script>
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 </html>

@@ -7,7 +7,11 @@ class ShellController extends Controller{
 		$Model=M('screen');
 		
 		$pro=$Model->select();
+<<<<<<< HEAD
+		$arr=$Model->where()->find();
+=======
 		$arr=$Model->find();
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 		$color=explode(",",$arr['color']);
 		// echo $Model->getLastSql();
 		// dump($color);
@@ -35,6 +39,9 @@ class ShellController extends Controller{
 	}
 
 	public function insert(){
+<<<<<<< HEAD
+		
+=======
 		$Model_number=$_POST['Model_number'];
 		$color=$_POST['color'];
 		$Damage_reason=$_POST['Damage_reason'];
@@ -53,5 +60,6 @@ class ShellController extends Controller{
 		if($obj){
 			echo "ok";
 		}
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 	}
 }

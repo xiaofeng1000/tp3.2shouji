@@ -1,0 +1,3304 @@
+[ 2017-10-20T08:36:40+08:00 ] ::1 /shouji/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: id E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.017500s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.002500s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.002500s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.132502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.132502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015000s ]
+
+[ 2017-10-20T08:37:22+08:00 ] ::1 /shouji/index.php/Screen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T08:47:06+08:00 ] ::1 /shouji/index.php/Screen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected ':'
+
+[ 2017-10-20T08:47:32+08:00 ] ::1 /shouji/index.php/Screen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: V E:\PHP\www\shouji\application\Runtime\Cache\Home\83c7f6a3216675c438a66a11ff6c9025.php 第 88 行.
+NOTIC: [8] Undefined variable: V E:\PHP\www\shouji\application\Runtime\Cache\Home\83c7f6a3216675c438a66a11ff6c9025.php 第 88 行.
+NOTIC: [8] Undefined variable: V E:\PHP\www\shouji\application\Runtime\Cache\Home\83c7f6a3216675c438a66a11ff6c9025.php 第 88 行.
+NOTIC: [8] Undefined variable: V E:\PHP\www\shouji\application\Runtime\Cache\Home\83c7f6a3216675c438a66a11ff6c9025.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T08:47:53+08:00 ] ::1 /shouji/index.php/Screen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T08:56:08+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T08:56:10+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pro E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T08:56:14+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pro E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T08:57:54+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T08:57:58+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T08:59:30+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T08:59:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 模板不存在:application/Home/View/Shell/select.html
+
+[ 2017-10-20T09:00:15+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:00:18+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T09:00:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:03:26+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:03:29+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=4 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:04:56+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:04:58+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant select - assumed 'select' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T09:05:02+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant select - assumed 'select' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:15:23+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:15:26+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\ca3d9308beba401dd9cc705355070299.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:15:51+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T09:15:54+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 模板不存在:application/Home/View/Shell/select.html
+
+[ 2017-10-20T09:20:07+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:20:10+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T09:36:14+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T09:38:26+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:46:53+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:53:21+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:53:24+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 30 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'sid' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+NOTIC: [2] Illegal string offset 'model_number' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:54:00+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:54:02+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:54:58+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T09:55:00+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:55:30+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:55:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:55:52+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:55:54+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.063004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:57:29+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T09:57:57+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=4 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:02:58+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:03:49+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Illegal string offset 'color' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 45 行.
+NOTIC: [2] Illegal string offset 'color' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 45 行.
+NOTIC: [2] Illegal string offset 'color' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 45 行.
+NOTIC: [2] Illegal string offset 'color' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 45 行.
+NOTIC: [2] Illegal string offset 'color' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:05:20+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 E:\PHP\www\shouji\ThinkPHP\Library\Think\Template.class.php 第 527 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:13:36+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected '$color' (T_VARIABLE)
+
+[ 2017-10-20T10:13:50+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '$color' (T_VARIABLE)
+
+[ 2017-10-20T10:14:09+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:14:13+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:14:29+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T10:16:11+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:16:56+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:18:24+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:21:18+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T10:22:32+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:23:29+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:24:46+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:32:46+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:32:47+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:35:08+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:37:27+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:41:01+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:41:04+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:42:40+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:42:43+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:43:58+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:45:27+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:45:31+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:46:16+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:46:18+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:47:00+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:47:02+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:47:30+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:47:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:48:48+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:48:51+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:53:28+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:53:30+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:53:47+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T10:53:49+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T10:54:03+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T10:54:07+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:03:02+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:03:05+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:03:25+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:03:28+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:04:33+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:04:35+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:05:12+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:05:14+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:05:55+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:05:57+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:07:35+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:08:36+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:08:38+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:08:49+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:10:14+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:10:18+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:11:32+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T11:11:35+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: Call to undefined function Home\Controller\dumt()
+
+[ 2017-10-20T11:11:48+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:11:51+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:13:04+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:13:06+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T11:16:50+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:16:55+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:17:45+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:17:50+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:18:23+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:18:26+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:19:13+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:19:15+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:20:31+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:20:34+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:20:57+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:20:59+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:22:01+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:22:25+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:22:29+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:22:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:25:50+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant color1 - assumed 'color1' E:\PHP\www\shouji\application\Runtime\Cache\Home\2d8cdba929ba5770f9da284120c0cf95.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:25:55+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:27:06+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '(array)' (array) (T_ARRAY_CAST)
+
+[ 2017-10-20T11:27:12+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '(array)' (array) (T_ARRAY_CAST)
+
+[ 2017-10-20T11:31:10+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: syntax error, unexpected '$color' (T_VARIABLE)
+
+[ 2017-10-20T11:31:14+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected '$color' (T_VARIABLE)
+
+[ 2017-10-20T11:32:01+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:32:04+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:32:08+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+NOTIC: [8] Array to string conversion E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T11:35:59+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:36:02+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:36:59+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:37:01+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:37:12+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-20T11:37:54+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:37:55+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-20T11:37:57+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:46:16+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:46:18+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:47:06+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:47:09+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T11:54:31+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-20T11:54:33+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=2 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:55:37+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T11:55:39+08:00 ] ::1 /shouji/index.php/Shell/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `screen` WHERE ( sid=3 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: color1 E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php 第 28 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-20T14:02:20+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:02:49+08:00 ] ::1 /shouji/index.php/Shell/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:03:42+08:00 ] ::1 /shouji/index.php/Shell/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\ShellController.class.php on line 10 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `screen` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:03:43+08:00 ] ::1 /shouji/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:03:52+08:00 ] ::1 /shouji/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.002001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:10:25+08:00 ] ::1 /shouji/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php 第 6 行.
+SQL: SHOW COLUMNS FROM `shouji` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `model_number` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 17 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1598 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1606 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1609 行.
+NOTIC: [8] Undefined variable: where E:\PHP\www\shouji\ThinkPHP\Library\Think\Model.class.php 第 1617 行.
+SQL: SELECT * FROM `model_number` LIMIT 0,8   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `shouji`  [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in E:\PHP\www\shouji\application\Home\Controller\IndexController.class.php on line 30 and defined E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content E:\PHP\www\shouji\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2017-10-20T14:10:31+08:00 ] ::1 /shouji/index.php/Screen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `screen` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `screen`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-20T14:24:45+08:00 ] ::1 /shouji/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\shouji\application\Home\Controller\IndexController.class.php 第 6 行.
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\shouji\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Acc�s refus� pour l'utilisateur: 'root'@'@localhost' (mot de passe: NON)
+

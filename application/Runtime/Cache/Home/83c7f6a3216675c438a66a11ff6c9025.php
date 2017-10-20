@@ -99,9 +99,17 @@
 		</div>
 		<div class="cell-order-member">
 			<select id="screen-color">
+<<<<<<< HEAD
 				<option value="1">金色</option>
 				<option value="2">黑色</option>
 				<option value="3">白色</option>
+=======
+				<!-- <option value="1">金色</option>
+				<option value="2">黑色</option>
+				<option value="3">白色</option> -->
+				<?php
+ for($i=0;$i<count($color);$i++){ echo "<option value='$i+1'>$color[$i]</option>"; } ?>
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 			</select>
 		</div>
 		<div class="cell-order-member">
@@ -183,4 +191,120 @@
 		<div class="cell-footer-r" id="cell-submit">提交订单</div>
 	</div>
 </body>
+<<<<<<< HEAD
+=======
+<script>
+$(function(){
+	var color=$('#cell-model').find('option:selected').html();
+	$('#cell-model').change(function(){
+		var id=$(this).val();
+		$.ajax({
+			type:'POST',
+			url:'/shouji/index.php/Shell/select',
+			data:{
+				id:id,
+			},
+			success:function(data){
+				if(data){
+					console.log(data);
+					var tr="";
+					var color= new Array();
+					color= JSON.parse(data);
+					console.log(color);
+					console.log(color.length);
+					for(i=0;i<color.length;i++){
+						tr+="<option value="+(i+1)+">"+color[i]+"</option>";
+					}
+					console.log(tr);
+					$('#screen-color').html(tr);
+					// alert(2);
+				}		
+			}
+		});
+	});
+});
+
+$('#cell-submit').click(function(){
+	var path="";
+	var model_number=$('#cell-model').find('option:selected').html();
+	var Damage_reason=$('#screen-ab').find('option:selected').html();
+	var color=$('#screen-color').find('option:selected').html();
+	var Service=$('#cell-function').find('option:selected').html();
+	var user=$('#name').val();
+	var Contact=$("#tel").val();
+	var path2=$('#cell-text').val();
+	var price=$('.cell-footer-l').find('span').text();
+	if(Service=="上门维修"){
+		var path3=$('#cell-province').find('option:selected').html();
+		var path4=$('#cell-city').find('option:selected').html();
+		var path5=$('#cell-county').find('option:selected').html();
+		$.ajax({
+			type:'POST',
+			url:'/shouji/index.php/Shell/insert',
+			data:{
+				Model_number:model_number,
+				color:color,
+				Damage_reason:Damage_reason,
+				user:user,
+				Contact:Contact,
+				path:path3+path4+path5+path2,
+				Service:Service,
+				price:price,
+			},
+			success:function(data){
+				if(data){
+					window.location.href='/shouji/index.php/Succeed/index';
+				}
+			}
+		});
+	}else if(Service=="邮寄维修"){
+		var path3=$('#province').find('option:selected').html();
+		var path4=$('#citys').find('option:selected').html();
+		var path5=$('#county').find('option:selected').html();
+		$.ajax({
+			type:'POST',
+			url:'/shouji/index.php/Shell/insert',
+			data:{
+				Model_number:model_number,
+				color:color,
+				Damage_reason:Damage_reason,
+				user:user,
+				Contact:Contact,
+				path:path3+path4+path5+path2,
+				Service:Service,
+				price:price,
+			},
+			success:function(data){
+				if(data){
+					window.location.href='/shouji/index.php/Succeed/index';
+				}
+			}
+		});
+	}else if(Service=="到店维修"){
+		var path3=$('#province').find('option:selected').html();
+		var path4=$('#citys').find('option:selected').html();
+		var path5=$('#county').find('option:selected').html();
+		$.ajax({
+			type:'POST',
+			url:'/shouji/index.php/Shell/insert',
+			data:{
+				Model_number:Model_number,
+				color:color,
+				Damage_reason:Damage_reason,
+				user:user,
+				Contact:Contact,
+				path1:path3+path4+path5+path2,
+				Service:Service,
+				price:price,
+			},
+			success:function(data){
+				if(data){
+					window.location.href='/shouji/index.php/Succeed/index';
+				}
+			}
+		});
+	}
+});
+</script>
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 </html>

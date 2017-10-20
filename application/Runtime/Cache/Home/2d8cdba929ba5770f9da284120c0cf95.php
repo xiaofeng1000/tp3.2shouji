@@ -152,12 +152,20 @@ $(function(){
 					}
 					console.log(tr);
 					$('#screen-color').html(tr);
+<<<<<<< HEAD
 					alert(2);
+=======
+					// alert(2);
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 				}		
 			}
 		});
 	});
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 894ec2eddc9461d088b06a00b9c777ddb6922a1b
 $('#cell-submit').click(function(){
 	var path="";
 	var model_number=$('#cell-model').find('option:selected').html();
